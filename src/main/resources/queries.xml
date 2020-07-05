@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+
+<properties>
+<entry key="getUser">
+    <![CDATA[
+        select * from user_access where user_name = :username    
+    ]]>
+
+</entry>    
+<entry key="getUserAccess">
+    <![CDATA[
+
+    ]]>
+</entry>
+
+</properties>
